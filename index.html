@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Link CSS -->
+        <link rel="stylesheet" href="style.css">
+        <title>Benjamin Arias Castro</title>
+    </head>
+    <body>
+        <div class="container">
+        
+            <nav class="principal-nav">
+                <div class="nav-container">
+                    <ul class="list-items">
+					                    <li class="nav__list-item"><a class="nav__list-item-enlace" href="https://www.fayerwayer.com/">Tecnologia</a></li>
+					                    <li class="nav__list-item"><a class="nav__list-item-enlace" href="https://www.youtube.com">Youtube</a></li>
+					                    
+					                    <li class="nav__list-item"><a class="nav__list-item-enlace" href="https://www.instagram.com/">Instagram</a></li>
+					                    <li class="nav__list-item"><a class="nav__list-item-enlace" href="https://www.facebook.com">Facebook</a></li>
+					                    <li class="nav__list-item"><a class="nav__list-item-enlace" href="https://www.twitter.com">Twitter</a></li>
+					                    
+				                 </ul>
+                </div>
+            </nav>
+        
+            <form id="formulario" class="formulario" action="" method='POST'>
+                <h1 class="form-title">Formulario</h1>
+                <input id="nombres" class="form-campo" type="text" name="nombres" placeholder="Nombres">
+                <input id="apellidos" class="form-campo" type="text" name="apellidos" placeholder="Apellidos">
+                <input id="edad" class="form-campo" type="number" name="edad" placeholder="Edad">
+                <input id="identificacion" class="form-campo" type="number" name="identificacion" placeholder="Cedula o pasaporte">
+                <select id="genero" class="form-select" name="genero">
+                    <option value="" selected>Genero</option> 
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+                <input class="btn-submit" type="submit" value="Enviar">
+            </form>
+            <div id="alertas">
+            
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
